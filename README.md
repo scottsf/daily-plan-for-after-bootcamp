@@ -1,6 +1,6 @@
 ### A plan for get a job in a Three months after graduating the Coding Bootcamp
 
-Congratulations for graduating your coding bootcamp. So proud of you because you've worked so hard to get familiar with Computer Science concepts and gained more experience in coding practices. No matter which coding bootcamp you've graduated and what coding languages you've learned, we all have the same goal next. Getting your first dev job will take some time depends on your technical skills, experiences and luck. This open-source project with the support of the community will guide you to get a job in three months.
+Congratulations for graduating your coding bootcamp. So proud of you because you've worked so hard to get familiar with  Computer Science concepts and gained more experience in coding practices. No matter which coding bootcamp you've graduated and what coding languages you've learned, we all have the same goal next. Getting your first dev job will take some time depends on your technical skills, experiences and luck. This open-source project with the support of the community intent to will guide you to get a job in three months.
 
 #### Why do I need a Three months plan?
 
@@ -12,12 +12,21 @@ According to [2018 Coding Bootcamp Industry and Outcomes Report](https://www.swi
 
 #### Topics
 
-1. Build side projects
-2. Study Algorithms and Data Structures
+[build side project](#build-side-project)
+
+
+2. Polish your materials (resume, portfolio and linkedin profile)
 3. Apply for jobs
 4. Understand the JavaScript in depth 
-5. Prepare for the interview 
+5. Study Algorithms and Data Structures
+6. Selfcare
+# Build side projects
+
+#### Contribution
+
+Please, feel free to pull request! The community will appreciate in your contribution.
 
 
-
- 
+<h4 id="build-side-project">
+Build side project
+</h4>

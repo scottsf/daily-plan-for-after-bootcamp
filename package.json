@@ -1,0 +1,32 @@
+{
+  "name": "guide-for-bootcamp-grads",
+  "version": "0.0.1",
+  "description": "The prep plan for coding interviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsf/guide-after-coding-bootcamp.git"
+  },
+  "keywords": [
+    "[\"Guidance\"",
+    "\"Prep\"",
+    "\"Plan\"",
+    "\"Interview\"",
+    "\"Project\"",
+    "\"Study\"",
+    "\"Algorithm\"",
+    "\"Apply\"",
+    "\"Bootcamp\"",
+    "\"Grad\"",
+    "\"Plan\"]"
+  ],
+  "author": "Munkhtegsh Munkhbat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottsf/guide-after-coding-bootcamp/issues"
+  },
+  "homepage": "https://github.com/scottsf/guide-after-coding-bootcamp#readme"
+}

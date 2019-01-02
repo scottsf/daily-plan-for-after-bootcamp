@@ -1,10 +1,10 @@
 # Topics
 
-[JavaScript](./javascript)
-[React](./react)
-[Redux](./redux)
-[css](./css)
-[html](./html)
+* [JavaScript](./javascript)
+* [React](./react)
+* [Redux](./redux)
+* [Css](./css)
+* [HTML](./html)
 
 
 

@@ -15,7 +15,7 @@ According to [2018 Coding Bootcamp Industry and Outcomes Report](https://www.swi
 1. [Start your side project](./start-project/README.md)
 2. [Polish your materials (resume, portfolio and linkedin profile)](#polish)
 3. [Apply for jobs](#apply)
-4. [The most common JavaScript inteview topics](#understand)
+4. [The most common interview topics](./interview-topics)
 5. [Study Algorithms and Data Structures](#study)
 7. [Selfcare](#selfcare)
 

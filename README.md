@@ -8,16 +8,16 @@ Unlike you were in the bootcamp, you are on your own at this stage. Plus, many s
 
 ## What is the reasonable amount of time to complete?
 
-According to [2018 Coding Bootcamp Industry and Outcomes Report](https://www.switchup.org/rankings/coding-bootcamp-survey), the average job search length is 8 week of finishing a bootcamp. 
+According to [2018 Coding Bootcamp Industry and Outcomes Report](https://www.switchup.org/rankings/coding-bootcamp-survey), the average job search length is 8 weeks of finishing a bootcamp. 
 
 ## Contents
 
 1. [Start your side project](./start-project/README.md)
 2. [Polish your materials (resume, portfolio and linkedin profile)](#polish)
 3. [Apply for jobs](#apply)
-4. [Understand the JavaScript in depth](#understand)
+4. [The most common JavaScript inteview topics](#understand)
 5. [Study Algorithms and Data Structures](#study)
-6. [Selfcare](#selfcare)
+7. [Selfcare](#selfcare)
 
 ## Contribution
 

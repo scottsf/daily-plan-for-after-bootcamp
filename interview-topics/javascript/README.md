@@ -31,7 +31,7 @@
   inc();       // Return 1
   inc();       // Return 2
   ```
-More info: [MDN Closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
-Helpful article: [Medium](https://medium.com/koderlabs/javascript-scope-chain-and-execution-context-simplified-ffb54fc6ad02)
-[[↑] Back to top](#JavaScript)
+  ##### More info: [MDN Closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+  ##### Helpful article: [Medium](https://medium.com/koderlabs/javascript-scope-chain-and-execution-context-simplified-ffb54fc6ad02)
+  [[↑] Back to top](#JavaScript)
 

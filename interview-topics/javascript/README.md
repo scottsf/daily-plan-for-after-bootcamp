@@ -8,9 +8,6 @@
   A *closure* is the combination of a function and the lexical environment within which that function was
   declared. 
 
-  The combination of a function object and a scope (a set of variable bindings) in which the function's 
-  variables are resolved is called a *closure*. 
-
   ```
   let scope = "global scope";         // A global variable
   function findNemo(name) {
@@ -22,7 +19,21 @@
   
   findNemo('Nemo')();                 // => "local scope"
   ```
+  
+  Closures capture the local variables and can use them as private state. 
+  ```
+  let  inc = (function () {
+    let number = 0;
+      return function () { 
+          return number += 1
+            }
 
+  }())
+
+  inc();      // Return 1
+  inc()       // Return 2
+  ```
 More info: (MDN Closure)(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+Helpful article: (Medium)(https://medium.com/koderlabs/javascript-scope-chain-and-execution-context-simplified-ffb54fc6ad02)
 [[↑] Back to top](#JavaScript)
 

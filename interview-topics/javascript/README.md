@@ -4,17 +4,25 @@
 * [Lexical scope](#lexical-scope)
 * [Curring](#curring)
 
-## What is a Closure 
-  A closure is a function plus the connection to the scope in which the function was created. The name stems from the fact that a closure "closes over" the free variables of a function. A variable is free if it is not declared within the function-that is, if it comes "from outside".
+## Closure 
+  A *closure* is the combination of a function and the lexical environment within which that function was
+  declared. 
 
-  If a function leaves the scope in which it was created, it stays connected to the variables of that scope (and of the surrounding scopes).
+  The combination of a function object and a scope (a set of variable bindings) in which the function's 
+  variables are resolved is called a *closure*. 
+
   ```
-  function createInc(startValue) {
-    return function (step) {
-      startValue += step;
-      return startValue;
-    }
-  }
+  let scope = "global scope";         // A global variable
+  function findNemo(name) {
+    let scope = "local scope";        // A local variable
+    return function f() { 
+      return `${name} in ${scope}`;   // Return the value in scope 
+    }   
+  } 
+  
+  findNemo('Nemo')();                 // => "local scope"
   ```
+
+More info: (MDN Closure)(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 [[↑] Back to top](#JavaScript)
 

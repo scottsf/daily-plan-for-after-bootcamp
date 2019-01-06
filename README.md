@@ -1,7 +1,7 @@
 
 # A guidance for Coding Bootcamp grads
 
-Congratulations! You have completed the most intensive three months of program. It is time to begin mapping the next phase of your journey. Depends on the technical skills, experiences and maybe with some luck everyone finds a job in different amount of time. So do not compare yourself with others. Try to focus on your strength, improve your weakest area and find what makes you different from other candidates. Fortunately, this open-source project with the support of our community intent to help you to overcome your struggles and make you the strongest candidate for the potential employers. 
+Congratulations! You have completed the most intensive three months of program. It is time to begin mapping the next phase of your journey. Fortunately, this open-source project with the support of our community intent to help you to overcome your struggles and make you the strongest candidate for the potential employers. 
 
 ## What is the purpose of this guidance? 
 

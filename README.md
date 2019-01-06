@@ -1,11 +1,12 @@
 
 # A guidance for Coding Bootcamp grads
 
-Congratulations! You have completed the most intensive three months of program. It is time to begin mapping the next phase of your journey. Fortunately, this open-source project with the support of our community intent to help you to overcome your struggles and make you the strongest candidate for the potential employers. 
+Congratulations! You have completed the most intensive three months of program. It is time to begin mapping the next phase of your journey. Following this guide with the support of our community will maximaze your chance to get interviewed and land on your first dev job.
 
 ## What is the purpose of this guidance? 
 
-Unlike you were in the bootcamp, you are on your own at this stage. Plus, many students get discouraged by the rejection emails after submitting their resume countless times. This guidance is an effective way to help you navigate through your job hunting in an organized way and brings the best resources on the table. Every job seekers will spend different amount of time on it. There is no correct plan for everyone. Before you create your personalized prep plan, you need to do some self-evaluation of your current schedule and skill set. You will have to identify your learning goals for in each session in order to maximize your productivity. 
+The purpose of this guidance is to simplify your job prep process by providing an overview of available resources and some practical advices. Each job seeker’s background is unique, so there is no correct plan for everyone. 
+Before you start, you need to do some self-evaluation of your current schedule. You will have to identify your learning goals for in each session in order to maximize your productivity. 
 
 ## What is the reasonable amount of time to complete?
 

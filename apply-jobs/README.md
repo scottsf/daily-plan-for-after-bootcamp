@@ -1,5 +1,10 @@
 # Apply for jobs
 
+* [Group the companies](#group-the-companies)
+* [How many applications to submit per day](#how-many-application-to-submit-per-day)
+* [Does Cover Letter matters](#does-cover-letter-matters)
+* [The best time to apply](#the-best-time-to-apply)
+
 ## Group the companies that you want to work 
 
 First let's make a list of companies you want to work for and group them in A, B, C. Write down the most wanted

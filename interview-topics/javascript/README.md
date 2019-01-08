@@ -15,12 +15,12 @@
   * Strict mode makes it easier to write “secure” JavaScript.
       
   Strict mode can be used in two ways – used in global scope for the entire script and can be applied to individual functions. Strict mode doesn’t work with block statements enclosed in {} braces.
-
-## Normal mode
-  In sloppy mode, assigning to an undeclared variable creates a global variable. 
   
   source: https://www.geeksforgeeks.org/strict-mode-javascript/
 
+## Sloppy mode
+  It is a normal mode. In this mode, assigning to an undeclared variable creates a global variable. 
+  
   ```javascript
   function check() {
     var declared = 'local variable';  
@@ -37,6 +37,10 @@
   In strict mode
   If you use strict mode in the above example the pitfall variable will cause an error because pitfall is not declared.
 
+## Hoisting 
+Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Inevitably, this means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
+
+Source: https://scotch.io/tutorials/understanding-hoisting-in-javascript
 
 ## Variable scope
   A global variable has *global scope*. It is defined everywhere in your code. If a variable is declared in a function it becomes a local variable and it has *local scope*.   

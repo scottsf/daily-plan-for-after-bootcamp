@@ -19,7 +19,8 @@
   source: https://www.geeksforgeeks.org/strict-mode-javascript/
 
 ## Sloppy mode
-  It is a normal mode. In this mode, assigning to an undeclared variable creates a global variable. 
+  The normal, non-strict mode of JavaScript is sometimes referred to as sloppy mode. 
+  It sloppy mode, assigning to an undeclared variable creates a global variable. 
   
   ```javascript
   function check() {
@@ -34,17 +35,28 @@
   console.log(declared)    // return ReferenceError
   ```
   
-  In strict mode
-  If you use strict mode in the above example the pitfall variable will cause an error because pitfall is not declared.
+  If you use strict mode in the above example undeclared will cause an error because pitfall is not declared.
 
 ## Hoisting 
-Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Inevitably, this means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
+  Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Inevitably, this means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
 
 Source: https://scotch.io/tutorials/understanding-hoisting-in-javascript
 
 ## Variable scope
-  A global variable has *global scope*. It is defined everywhere in your code. If a variable is declared in a function it becomes a local variable and it has *local scope*.   
+  Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript. The two types of scope are local and global:
 
+  * Global variables are those declared outside of a block
+  * Local variables are those declared inside of a block
+    
+  source: https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript
+  
+## Difference Between *var*, *let*, and *const*
+  The differences between the three are based on scope, hoisting, and reassignment.
+  
+  <img width="755" alt="screen shot 2019-01-08 at 1 46 44 pm" src="https://user-images.githubusercontent.com/43653189/50860883-ed867e00-134b-11e9-81fc-c519a9e92e03.png">
+
+  source: https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript
+  
 ## Lexical scope 
 
 ## Closure 

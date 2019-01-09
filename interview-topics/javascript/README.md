@@ -4,6 +4,12 @@
 * [Lexical scope](#lexical-scope)
 * [Curring](#curring)
 
+## Lexical environment
+  How a parser resolves variable names when functions are nested. The word "lexical" refers to the fact that lexical scoping uses the location where a variable is declared within the source code to determine where that variable is available. Nested functions have access to variables declared in their outer scope.
+
+  source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+
 ## Strict mode
   Strict Mode is a feature that allows you to place a program, or a function, in a “strict” operating context. This strict context prevents certain actions from being taken and throws more exceptions. The statement “use strict”; instructs the browser to use the Strict mode, which is a reduced and safer feature set of JavaScript.
   
@@ -56,8 +62,6 @@ Source: https://scotch.io/tutorials/understanding-hoisting-in-javascript
   <img width="755" alt="screen shot 2019-01-08 at 1 46 44 pm" src="https://user-images.githubusercontent.com/43653189/50860883-ed867e00-134b-11e9-81fc-c519a9e92e03.png">
 
   source: https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript
-  
-## Lexical scope 
 
 ## Closure 
   A *closure* is the combination of a function and the lexical environment within which that function was

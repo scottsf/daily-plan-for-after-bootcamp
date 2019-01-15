@@ -5,7 +5,7 @@
 * [Sloppy mode](#sloppy-mode)
 * [Hoisting](#hoisting)
 * [Variable scope](#variable-scope)
-* [Difference Between *var*, *let*, and *const*](#difference-between-*var*,-*let*,-and-*const*)
+* [Difference Between *var*, *let*, and *const*](#difference-between-var,-let,-and-const)
 * [IIFE](#iife)
 * [Closure](#closure)
 * [Curring](#curring)
@@ -92,6 +92,10 @@ Source: https://scotch.io/tutorials/understanding-hoisting-in-javascript
   It is a design pattern which is also known as a Self-Executing Anonymous Function and contains two major parts. The first is the anonymous function with lexical scope enclosed within the Grouping Operator (). This prevents accessing variables within the IIFE idiom as well as polluting the global scope.
 
   The second part creates the immediately executing function expression () through which the JavaScript engine will directly interpret the function.
+  
+  source: https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+  
+  #### helpful article: https://medium.com/@vvkchandra/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6
 
   [[↑] Back to top](#JavaScript)
   

@@ -27,7 +27,7 @@ Countless times I met with HR managers from big FAANGS and Startups at Meetups i
 Personally, I prefer to submit my Resume attach with my Cover Letter.
 
 ## Apply in the morning
-It matters when you send your application. The best time is between 6am - 10am every week days. It will increase your chance to get an interview by 13%. It is proven with [data](https://talent.works/blog/2017/10/19/youre-5x-more-likely-to-get-job-interview-if-you-apply-by-10am/). Whatever you do, don’t apply after 4pm.
+It matters when you send your application. The best time is between 6am - 10am every week days. It will increase your chance to get an interview by 13%. It is proven with [data](https://talent.works/blog/2017/10/19/youre-5x-more-likely-to-get-job-interview-if-you-apply-by-10am/) and [here](https://talent.works/blog/2018/01/08/the-science-of-the-job-search-part-i-13-data-backed-ways-to-win/?fbclid=IwAR2a-7-oFx9ge-dmSvrFd4SN9ZN3xG2cAJbafpnV_lMVJLGPYCsW-lgSLiQ). Whatever you do, don’t apply after 4pm.
 
 ![screen shot 2019-01-06 at 1 11 58 am](https://user-images.githubusercontent.com/43653189/50734184-3d98f100-1150-11e9-88c7-d8219ba7ceee.png)
 

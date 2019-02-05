@@ -131,7 +131,7 @@ Source: https://scotch.io/tutorials/understanding-hoisting-in-javascript
   ## Call, Apply and Bind methods
   Traditionally object has properties and methods. In JavaScript, you can write method separately and attach it to different objects with call, apply and bind methods. Simply, you can write common methods for various objects. For example:
   
-  ```
+  ``` javascript
   // we have an object called a student
   let student = {
     name: 'Harry Potter',

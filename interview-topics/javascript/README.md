@@ -138,7 +138,7 @@ Source: https://scotch.io/tutorials/understanding-hoisting-in-javascript
   }
   
   let hasWand = function(bool) {
-    return `Does this.name has a wand? Answer: ${bool}`
+    return `Does ${this.name} has a wand? Answer: ${bool}`
   }
   
   // using call method

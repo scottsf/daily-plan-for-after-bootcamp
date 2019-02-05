@@ -9,6 +9,7 @@
 * [IIFE](#iife)
 * [Closure](#closure)
 * [Curring](#curring)
+* [Call, apply and bind methods](#call-apply-bind-methods)
 
 ## Lexical environment
   How a parser resolves variable names when functions are nested. The word "lexical" refers to the fact that lexical scoping uses the location where a variable is declared within the source code to determine where that variable is available. Nested functions have access to variables declared in their outer scope.
@@ -126,4 +127,41 @@ Source: https://scotch.io/tutorials/understanding-hoisting-in-javascript
   ##### Helpful article: [Medium](https://medium.com/koderlabs/javascript-scope-chain-and-execution-context-simplified-ffb54fc6ad02)
   
   [[↑] Back to top](#JavaScript)
+  
+  ## Call, Apply and Bind methods
+  Traditionally object has properties and methods. In JavaScript, you can write method separately and attach it to different objects with call, apply and bind methods. Simply, you can write common methods for various objects. For example:
+  
+  ```
+  // we have an object called a student
+  let student = {
+    name: 'Harry Potter',
+  }
+  
+  let hasWand = function(bool) {
+    return `Does this.name has a wand? Answer: ${bool}`
+  }
+  
+  // using call method
+  hasWand.call(student, true) //returns "Does this.name has a wand? Answer: false"
+  
+  ---
+
+  let getBirthday = function(month, day, year) {
+    return `${this.name} was born on ${month}/${day}/${year}`
+  }
+  
+  let birthday = ['October', 16, 1998];
+  
+  // difference between appy and call is apply accepts array property
+  getBirthday.apply(student, birthday) //returns "Harry Potter was born at October/16/1998"
+  
+  ---
+  
+  // Bind method binds the method with the object and it returns a function
+  let bound = hasWand.bind(student)
+  bound(true) // returns "Does Harry Potter has a wand? Answer: true"
+  
+  ```
+  
+  
 

@@ -10,7 +10,7 @@
 * [Closure](#closure)
 * [Curring](#curring)
 * [Call, apply and bind methods](#call-apply-bind-methods)
-* [Generator function](#generator-function)
+* [Generator functions](#generator-functions)
 
 ## Lexical environment
   How a parser resolves variable names when functions are nested. The word "lexical" refers to the fact that lexical scoping uses the location where a variable is declared within the source code to determine where that variable is available. Nested functions have access to variables declared in their outer scope.
@@ -164,11 +164,11 @@ Source: https://scotch.io/tutorials/understanding-hoisting-in-javascript
   
   ```
   
-  ## Generator function 
-  Generator functions returns generator object. It can be exited and re-entered later. Their context will be saved. It is powerful tool, especially combined with promises. It eliminates callback hell. 
-  Super useful for asynchronous programming. Which async built on top of it. It doesn’t execute body immediately. The generator functions body executed until the first *yield* expression. It delegates to an another function. 
-  Depends on the next() method returns an object with a value (containing the yielded value) and done property contain (true, false)
-  Calling next() method with argument will resume the generator function execution replacing the yield expression where execution was paused wit the argument from next()
+  ## Generator functions 
+  Generator functions return generator object. It can be exited and re-entered later. Their context will be saved. It is a powerful tool, especially combined with promises. It eliminates callback hell. 
+  Super useful for asynchronous programming. Which async built on top of it. It doesn’t execute the body immediately. The generator functions body executed until the first *yield* expression. It delegates to another function. 
+  Depends on the next() method returns an object with a value (containing the yielded value) and done property contains (true, false)
+  Calling next() method with the argument will resume the generator function execution replacing the yield expression where execution was paused with the argument from next() method.
 
   source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
   
